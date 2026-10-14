@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text">This is Button</p>
+    <button id="btn">Submit</button>
+
+    <script>
+            const btn = document.getElementById('btn');
+            
+
+            btn.addEventListener('click' , () => {
+                const text = document.getElementById('text').textContent ='This is Not Button'
+            })
+    </script>
+</body>
+</html>
