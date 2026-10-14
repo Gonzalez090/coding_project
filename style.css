@@ -16,17 +16,18 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
+    background-color: rgb(183, 121, 29);
     width: 200px;
     padding: 10px;
 }
 
 p {
-    background-color: antiquewhite;
+    background-color: rgb(237, 236, 233);
     text-align: center;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
+    border-radius: 4px;
 }
 
 button {
