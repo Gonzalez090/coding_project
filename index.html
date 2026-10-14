@@ -7,15 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="text">This is Button</p>
-    <button id="btn">Submit</button>
-
+    <div class="card">
+        <p id="text">This is Button</p>
+        <button id="btn">Submit</button>
+        <button id="reset">Reset</button>
+    </div>
     <script>
             const btn = document.getElementById('btn');
+            const reset = document.getElementById('reset');
+            const text = document.getElementById('text')
             
 
             btn.addEventListener('click' , () => {
-                const text = document.getElementById('text').textContent ='This is Not Button'
+                text.textContent ='This is Not Button'
+            })
+
+            reset.addEventListener('click', () => {
+                text.textContent = 'This is Button';
             })
     </script>
 </body>
